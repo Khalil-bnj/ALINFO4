@@ -36,7 +36,7 @@ public class CallRestWebService {
 
 			//ip = responseObj.getString("origin");
 			ip = responseObj.getString("query");
-			System.out.println("ip adress : " + ip);
+			System.out.println("the ip adress : " + ip);
 
 		} catch (IOException e) {
 			e.printStackTrace();
